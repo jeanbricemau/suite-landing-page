@@ -1,5 +1,7 @@
 # Frontend Mentor - Suite landing page
 
+https://jeanbricemau.github.io/suite-landing-page/
+
 ![Design preview for the Suite landing page coding challenge](./preview.jpg)
 
 ## Welcome! 👋
