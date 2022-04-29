@@ -1,0 +1,247 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* border: 1px solid #000; */
+   font-family: 'Epilogue';
+}
+header , section , footer{
+   width: 1100px;
+   margin: auto;
+}
+
+body {
+  
+   padding: 60px 165px;
+   background-color: #faf8f6;
+   margin: auto;
+   overflow: visible;
+   justify-content: center;
+}
+header {
+   margin: auto;
+   height: fit-content;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 65px;
+
+}
+
+header .logo {
+    width: fit-content;
+   height: fit-content;
+}
+
+header button {
+   width: 220px;
+   height: 56px;
+   border-radius: 6px;
+   border: 1px solid #172339;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 32px;
+   letter-spacing: -0.16px;
+   color: #172339;
+   background: none;
+}
+
+header button p {
+   width: fit-content;
+   margin: auto;
+}
+
+
+#herobanner{
+   height: 602px;
+   margin: auto;
+   margin-bottom: 158px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+   background-image: url("assets/image-hero-portrait.png"   );
+   overflow: visible;
+   background-size: 1;
+   background-repeat: no-repeat;
+   background-position:  473px;
+}
+
+#herobanner article{
+   display: flex;
+   flex-direction: column;
+   width: 635px;
+   float: left;
+ 
+}
+
+#herobanner article::before{
+   content: '';
+   width: 287px;
+   height: 32px;
+   background-image: url("assets/pattern-curved-line-1.svg");
+   background-size: 1;
+   position: relative;
+   top: -32px;
+   left: 291px;
+}
+#herobanner article h1{
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 78px;   
+   letter-spacing: -1px;
+   color: #172339;
+   width: 635px;
+   margin-bottom: 40px;
+   
+   
+}
+
+article h1 span{
+font-weight: 700;
+}
+
+
+article .heroText{
+   width: 350px;
+   font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #49566D;
+margin-bottom: 52px;
+}
+
+article button{
+
+width: 256px;
+height: 61px;
+background: #172339;
+border-radius: 6px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border: none;
+
+}
+
+article button .btnText {
+
+ 
+font-weight:  700;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: -0.18px;
+color: #FAF8F6 ;
+margin: auto;
+
+}
+
+
+#herobanner   .heroImg{
+   width: 350px;
+   height: 600px;
+   position: relative;
+   z-index: -1;
+  right:161px;
+}
+
+
+
+#herobanner #stats{
+   height: 375px;
+   width: fit-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   list-style: none;
+   color: #49566D;
+ 
+ 
+
+}
+
+#herobanner #stats li{
+   width: 190px;
+   display: flex;
+   flex-direction: column;
+   text-transform: uppercase;
+}
+#herobanner #stats li span{
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 56px;
+   letter-spacing: -0.5px; 
+   color: #172339;
+}
+
+
+#jeremy{
+   display: flex;
+   flex-direction: row;
+
+   background-color: #172339;
+   border-radius: 15px;
+   justify-content: space-between;
+}
+
+#jeremy img{
+   position: relative;
+   height: 589.56px;
+   left: 121.49px;
+   
+}
+
+#jeremy article{
+   width: 350px;
+   height: 369px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   color: #F3EDE7;
+   margin: auto;
+
+}
+/* 
+#jeremy article::before{
+   content: '';
+   background-image: url("assets/pattern-curved-line-2.svg");
+   position: sticky;
+   width: 64.05px;
+   height: 52px;
+
+} */
+
+#jeremy article h2{
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 32px;
+   letter-spacing: -0.16px;
+   margin-bottom: 40px;
+}
+
+#jeremy article h2 span{
+      font-weight: 700;
+}
+
+#jeremy article p{
+
+   
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 35px;
+   letter-spacing: 0.1px;
+   color: #F3EDE7;}
+
+   #jeremy article .autors{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: left ;
+      margin-top: 40px;
+   }
+
+   #jeremy article .autors span{
+         font-weight: 700;
+   }
